@@ -1,5 +1,5 @@
 /* ============ SCROLL SECTIONS ACTIVE LINK ============= */
-/* const sections = document.querySelectorAll('section[id]')
+const sections = document.querySelectorAll('section[id]')
 
 function scrollActive() {
     const scrollY = window.pageYOffset
@@ -16,7 +16,7 @@ function scrollActive() {
         }
     })
 }
-window.addEventListener('scroll', scrollActive) */
+window.addEventListener('scroll', scrollActive)
 
 /* 
     IF you do not require the indicator activated by scrolling sections.
@@ -26,11 +26,11 @@ window.addEventListener('scroll', scrollActive) */
  */
 
     /* ================ ACTIVE LINK ================ */
-    const navLink = document.querySelectorAll('.nav_link')
+/*     const navLink = document.querySelectorAll('.nav_link')
 
     function activeLink() {
         navLink.forEach((item) => item.classList.remove('active-link'))
         this.classList.add('active-link')
     }
 
-    navLink.forEach((item) => item.addEventListener('click', activeLink))
+    navLink.forEach((item) => item.addEventListener('click', activeLink)) */
